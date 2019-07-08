@@ -1,0 +1,5 @@
+name: my-lando-app
+recipe: drupal8
+config:
+  webroot: my_site_name_dir/web
+
