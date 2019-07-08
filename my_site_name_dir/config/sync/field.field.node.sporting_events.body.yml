@@ -1,0 +1,22 @@
+uuid: 580b46bd-689a-4338-8504-e4e6aa7de16c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.sporting_events
+  module:
+    - text
+id: node.sporting_events.body
+field_name: body
+entity_type: node
+bundle: sporting_events
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,0 +1,22 @@
+uuid: 0c4512a3-c71a-47e2-b064-2f010b34c7a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sporting_events
+id: node.sporting_events.promote
+field_name: promote
+entity_type: node
+bundle: sporting_events
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

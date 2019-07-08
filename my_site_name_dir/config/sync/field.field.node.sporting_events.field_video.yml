@@ -1,0 +1,30 @@
+uuid: 68e1e09e-116f-4ca0-9061-8f11ad04e3a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video
+    - media.type.remote_video
+    - media.type.video
+    - node.type.sporting_events
+id: node.sporting_events.field_video
+field_name: field_video
+entity_type: node
+bundle: sporting_events
+label: Video
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      remote_video: remote_video
+      video: video
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: remote_video
+field_type: entity_reference

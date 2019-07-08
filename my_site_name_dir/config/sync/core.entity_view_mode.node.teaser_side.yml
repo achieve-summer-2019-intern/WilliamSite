@@ -1,0 +1,10 @@
+uuid: cee25b40-63d9-4de8-962d-706dd672cd3a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.teaser_side
+label: 'Teaser Side'
+targetEntityType: node
+cache: true

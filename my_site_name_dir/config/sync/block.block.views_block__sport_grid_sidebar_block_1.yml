@@ -1,0 +1,24 @@
+uuid: 66185062-72bf-4112-9df7-038767695bfa
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.sport_grid_sidebar
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__sport_grid_sidebar_block_1
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:sport_grid_sidebar-block_1'
+settings:
+  id: 'views_block:sport_grid_sidebar-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,11 @@
+features:
+  node_user_picture: true
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: false
+logo:
+  use_default: true
+  path: 'public://Eversport Logo-1296x729.png'
+favicon:
+  use_default: false
+  path: ''

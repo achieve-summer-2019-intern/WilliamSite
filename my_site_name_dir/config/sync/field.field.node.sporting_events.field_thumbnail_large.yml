@@ -1,0 +1,38 @@
+uuid: 2e6c3bf8-e15d-40e5-b5e0-c4b01285b0b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_thumbnail_large
+    - node.type.sporting_events
+  module:
+    - image
+id: node.sporting_events.field_thumbnail_large
+field_name: field_thumbnail_large
+entity_type: node
+bundle: sporting_events
+label: 'Thumbnail Large'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

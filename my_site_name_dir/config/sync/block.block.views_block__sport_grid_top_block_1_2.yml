@@ -1,0 +1,24 @@
+uuid: 80744837-ecc4-4388-a730-f9cd797d68fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.sport_grid_top
+  module:
+    - views
+  theme:
+    - bootstrap
+id: views_block__sport_grid_top_block_1_2
+theme: bootstrap
+region: content
+weight: -6
+provider: null
+plugin: 'views_block:sport_grid_top-block_1'
+settings:
+  id: 'views_block:sport_grid_top-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }
