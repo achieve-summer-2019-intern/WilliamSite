@@ -1,0 +1,23 @@
+uuid: a94a5944-fb97-4b21-a8cb-7bed7c2f5082
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: taxonamy_path
+label: 'Taxonamy Path'
+type: 'canonical_entities:taxonomy_term'
+pattern: '[term:parent:parents:join-path]/[term:name]'
+selection_criteria:
+  c2f02ddb-e09c-4592-ad9f-8c87e5a646bb:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      sport_categories: sport_categories
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: c2f02ddb-e09c-4592-ad9f-8c87e5a646bb
+selection_logic: and
+weight: -5
+relationships: {  }

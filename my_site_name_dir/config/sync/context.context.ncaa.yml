@@ -1,0 +1,23 @@
+uuid: 615d71e9-6e25-4717-b1db-3fc866e65e9a
+langcode: en
+status: true
+dependencies: {  }
+name: ncaa
+label: NCAA
+group: Basketball
+description: ''
+requireAllConditions: false
+disabled: false
+conditions:
+  request_path_exclusion:
+    id: request_path_exclusion
+    pages: ''
+    negate: false
+    uuid: c36926cf-ff1e-455e-8d24-e0edf6ad9ada
+reactions:
+  blocks:
+    blocks: {  }
+    id: blocks
+    saved: false
+    uuid: 996a094d-d4ef-4703-979e-31ade3c8ca42
+weight: 0
