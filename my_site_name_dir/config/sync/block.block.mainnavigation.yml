@@ -10,7 +10,7 @@ dependencies:
     - bartik
 id: mainnavigation
 theme: bartik
-region: primary_menu
+region: header
 weight: -7
 provider: null
 plugin: 'superfish:main'

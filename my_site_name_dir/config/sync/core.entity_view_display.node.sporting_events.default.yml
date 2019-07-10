@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.field.node.sporting_events.body
     - field.field.node.sporting_events.field_date
-    - field.field.node.sporting_events.field_image
     - field.field.node.sporting_events.field_sport_types
     - field.field.node.sporting_events.field_thumbnail_large
     - field.field.node.sporting_events.field_video
@@ -35,15 +34,6 @@ content:
       timezone_override: ''
     third_party_settings: {  }
     type: datetime_default
-    region: content
-  field_image:
-    weight: 103
-    label: above
-    settings:
-      image_style: ''
-      image_link: ''
-    third_party_settings: {  }
-    type: image
     region: content
   field_sport_types:
     weight: 106

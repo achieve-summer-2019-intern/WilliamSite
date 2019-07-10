@@ -1,0 +1,22 @@
+uuid: 3795d93c-35f4-4daf-b771-1e852f9980e3
+langcode: en
+status: false
+dependencies:
+  module:
+    - node
+id: jesus_sport_events
+label: 'jesus sport events'
+type: 'canonical_entities:node'
+pattern: '/[node:field_sport_types:entity:root]/[node:field_sport_types]/[node:field_date:date:html_year]/[node:field_date:date:html_yearless_date]/[node:title]'
+selection_criteria:
+  b722028c-4862-49a3-b0ed-73fb359e03d6:
+    id: node_type
+    bundles:
+      sporting_events: sporting_events
+    negate: false
+    context_mapping:
+      node: node
+    uuid: b722028c-4862-49a3-b0ed-73fb359e03d6
+selection_logic: and
+weight: -5
+relationships: {  }

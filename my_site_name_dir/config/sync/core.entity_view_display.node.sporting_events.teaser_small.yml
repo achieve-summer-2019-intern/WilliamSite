@@ -6,7 +6,6 @@ dependencies:
     - core.entity_view_mode.node.teaser_small
     - field.field.node.sporting_events.body
     - field.field.node.sporting_events.field_date
-    - field.field.node.sporting_events.field_image
     - field.field.node.sporting_events.field_sport_types
     - field.field.node.sporting_events.field_thumbnail_large
     - field.field.node.sporting_events.field_video
@@ -49,6 +48,5 @@ content:
     region: content
 hidden:
   body: true
-  field_image: true
   field_thumbnail_large: true
   links: true

@@ -1,23 +1,23 @@
-uuid: a94a5944-fb97-4b21-a8cb-7bed7c2f5082
+uuid: 72531135-9ae5-494d-afc5-b58ba1ca1680
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - ctools
     - taxonomy
-id: taxonamy_path
-label: 'Taxonamy Path'
+id: root_term
+label: 'Root Term'
 type: 'canonical_entities:taxonomy_term'
-pattern: '[term:parents:join-path]/[term:name]'
+pattern: '[term:root:name]'
 selection_criteria:
-  446a3760-1ca1-4fbb-b1d5-4a8af282d5db:
+  16d638ac-1e6f-4972-b06b-e08ce1b86e27:
     id: 'entity_bundle:taxonomy_term'
     bundles:
       sport_categories: sport_categories
     negate: false
     context_mapping:
       taxonomy_term: taxonomy_term
-    uuid: 446a3760-1ca1-4fbb-b1d5-4a8af282d5db
+    uuid: 16d638ac-1e6f-4972-b06b-e08ce1b86e27
 selection_logic: and
 weight: -5
 relationships: {  }

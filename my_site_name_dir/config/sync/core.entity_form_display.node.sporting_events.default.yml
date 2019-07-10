@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.field.node.sporting_events.body
     - field.field.node.sporting_events.field_date
-    - field.field.node.sporting_events.field_image
     - field.field.node.sporting_events.field_sport_types
     - field.field.node.sporting_events.field_thumbnail_large
     - field.field.node.sporting_events.field_video
@@ -42,14 +41,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
-    region: content
-  field_image:
-    weight: 123
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-    third_party_settings: {  }
-    type: image_image
     region: content
   field_sport_types:
     weight: 126

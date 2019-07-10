@@ -1,0 +1,88 @@
+uuid: 615d71e9-6e25-4717-b1db-3fc866e65e9a
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - system
+name: sport_event
+label: 'Sport Event'
+group: 'All Sports'
+description: ''
+requireAllConditions: false
+disabled: false
+conditions:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      sporting_events: sporting_events
+    negate: 0
+    uuid: 2a882eb6-df43-484c-864d-7dac4d4628ee
+    context_mapping:
+      node: '@node.node_route_context:node'
+  'entity_bundle:taxonomy_term':
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      sport_categories: sport_categories
+    negate: 0
+    uuid: 3b391c49-65d4-4c6a-93b5-47355516530a
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: '/*'
+    negate: 0
+    uuid: 89a52e3f-6a1c-4ff3-8199-9ef90a3af3e3
+    context_mapping: {  }
+reactions:
+  blocks:
+    blocks:
+      7dd3e1d9-9d9d-4e9e-8c10-c94e22f4fe09:
+        id: 'views_block:sport_grid_sidebar-block_1'
+        label: ''
+        provider: views
+        label_display: 0
+        views_label: ''
+        items_per_page: none
+        region: sidebar_second
+        weight: '-1'
+        context_mapping: {  }
+        theme: bartik
+        css_class: ''
+        unique: 0
+        context_id: ncaa
+        uuid: 7dd3e1d9-9d9d-4e9e-8c10-c94e22f4fe09
+      6da98372-b7a9-4530-b28a-7fb3bc100305:
+        id: 'views_block:sport_grid_bottom-block_1'
+        label: ''
+        provider: views
+        label_display: 0
+        views_label: ''
+        items_per_page: none
+        region: content
+        weight: '0'
+        context_mapping: {  }
+        theme: bartik
+        css_class: ''
+        unique: 0
+        context_id: ncaa
+        uuid: 6da98372-b7a9-4530-b28a-7fb3bc100305
+      a3ec58e3-8928-481a-bf42-c0de906d6a64:
+        id: 'views_block:sport_grid_top-block_1'
+        label: ''
+        provider: views
+        label_display: 0
+        views_label: ''
+        items_per_page: none
+        region: content
+        weight: '-1'
+        context_mapping: {  }
+        theme: bartik
+        css_class: ''
+        unique: 0
+        context_id: ncaa
+        uuid: a3ec58e3-8928-481a-bf42-c0de906d6a64
+    id: blocks
+    saved: false
+    uuid: 996a094d-d4ef-4703-979e-31ade3c8ca42
+    include_default_blocks: 1
+weight: 0
