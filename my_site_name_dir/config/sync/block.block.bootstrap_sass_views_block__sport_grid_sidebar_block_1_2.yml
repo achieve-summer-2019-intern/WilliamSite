@@ -1,0 +1,24 @@
+uuid: a203dc4a-ea44-4c5f-bb87-0490164ffcf1
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.sport_grid_sidebar
+  module:
+    - views
+  theme:
+    - bootstrap_sass
+id: bootstrap_sass_views_block__sport_grid_sidebar_block_1_2
+theme: bootstrap_sass
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:sport_grid_sidebar-block_1'
+settings:
+  id: 'views_block:sport_grid_sidebar-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

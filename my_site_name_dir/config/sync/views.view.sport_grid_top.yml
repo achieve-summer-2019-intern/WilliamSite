@@ -203,6 +203,7 @@ display:
           entity_type: node
           plugin_id: taxonomy_index_tid_depth
       display_extenders: {  }
+      css_class: col-sm-4
     cache_metadata:
       max-age: -1
       contexts:
