@@ -58,7 +58,7 @@ settings:
   maxwidth: '27'
   multicolumn: 1
   multicolumn_depth: '1'
-  multicolumn_levels: '2'
+  multicolumn_levels: '1'
   pathlevels: '1'
   expanded: 0
   clone_parent: 0

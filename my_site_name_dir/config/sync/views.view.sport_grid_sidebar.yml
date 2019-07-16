@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.teaser
+    - core.entity_view_mode.node.teaser_side
     - node.type.sporting_events
   module:
     - node
@@ -55,20 +55,19 @@ display:
           items_per_page: 2
           offset: 0
       style:
-        type: grid
+        type: html_list
         options:
+          row_class: row
+          default_row_class: true
           uses_fields: false
-          columns: 1
-          automatic_width: true
-          alignment: vertical
-          col_class_default: true
-          col_class_custom: ''
-          row_class_default: true
-          row_class_custom: ''
+          type: ul
+          wrapper_class: item-list
+          class: list-group
       row:
         type: 'entity:node'
         options:
-          view_mode: teaser
+          relationship: none
+          view_mode: teaser_side
       fields:
         title:
           id: title
@@ -202,6 +201,7 @@ display:
           entity_type: node
           plugin_id: taxonomy_index_tid_depth
       display_extenders: {  }
+      css_class: 'container p-5'
     cache_metadata:
       max-age: -1
       contexts:

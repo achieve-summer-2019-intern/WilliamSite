@@ -6,8 +6,7 @@ description: 'Basic structure for a William.'
 base theme: bootstrap_barrio
 
 libraries:
-  # - william/bootstrap_cdn
-  - william/bootstrap
+  - william/bootstrap_cdn
   - william/global-styling
 
 regions:

@@ -1,0 +1,23 @@
+uuid: bdab7cdc-59af-450f-81a4-82d124e4d138
+langcode: en
+status: true
+dependencies: {  }
+name: sidebar_image
+label: 'Sidebar Image'
+effects:
+  5fb83a80-9e81-4451-b1cc-df0e22c81adf:
+    uuid: 5fb83a80-9e81-4451-b1cc-df0e22c81adf
+    id: image_crop
+    weight: -9
+    data:
+      width: 342
+      height: 69
+      anchor: center-top
+  f9f0c079-4a37-40ea-8299-93807cc48de6:
+    uuid: f9f0c079-4a37-40ea-8299-93807cc48de6
+    id: image_scale
+    weight: -10
+    data:
+      width: 400
+      height: 300
+      upscale: false

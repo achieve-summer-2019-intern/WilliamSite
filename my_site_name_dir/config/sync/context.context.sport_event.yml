@@ -130,14 +130,14 @@ reactions:
         id: 'views_block:sport_grid_top-block_1'
         label: ''
         provider: views
-        label_display: visible
+        label_display: 0
         views_label: ''
         items_per_page: none
         region: content
         weight: '-1'
         context_mapping: {  }
         theme: william
-        css_class: container
+        css_class: ''
         unique: 0
         context_id: sport_event
         uuid: 48cbc39f-e093-48f0-bec8-854ff048b081
@@ -167,7 +167,7 @@ reactions:
         weight: '-1'
         context_mapping: {  }
         theme: william
-        css_class: container
+        css_class: ''
         unique: 0
         context_id: sport_event
         uuid: 3916c199-17e9-46f4-9d3d-cb1685ab7e8d

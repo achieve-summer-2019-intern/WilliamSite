@@ -62,9 +62,9 @@ display:
           automatic_width: true
           alignment: horizontal
           col_class_default: true
-          col_class_custom: ''
+          col_class_custom: col-md-auto
           row_class_default: true
-          row_class_custom: ''
+          row_class_custom: row
       row:
         type: 'entity:node'
         options:
@@ -203,7 +203,7 @@ display:
           entity_type: node
           plugin_id: taxonomy_index_tid_depth
       display_extenders: {  }
-      css_class: col-sm-4
+      css_class: 'jumbotron m-auto'
     cache_metadata:
       max-age: -1
       contexts:
