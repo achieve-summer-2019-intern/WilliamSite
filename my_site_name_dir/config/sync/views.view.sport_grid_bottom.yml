@@ -203,7 +203,7 @@ display:
           entity_type: node
           plugin_id: taxonomy_index_tid_depth
       display_extenders: {  }
-      css_class: jumbotron
+      css_class: ''
     cache_metadata:
       max-age: -1
       contexts:

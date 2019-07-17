@@ -3,4 +3,73 @@
  * Subtheme specific CSS.
  */
 
- 
+
+body{ 
+    color: white; 
+}
+
+/* #page-wrapper{
+    width: 100vw;
+    height: 100vh; 
+}
+
+
+#header{
+    max-width: 100%;
+    max-height: 11%;
+} */
+
+#main {
+    max-width: 95%;
+    padding: 0%;    
+}
+
+#page{
+    font-family: "Source Sans Pro",sans-serif;
+    line-height: 1.4;
+    width: 100%;
+    height: 100%; 
+}
+
+
+/* #sidebar_second{
+    padding-bottom: 500px; 
+} */
+
+.header{
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.navbar{
+    background-image: linear-gradient(to left,#2E2449,#25366A);
+    padding: 0 10%; 
+}
+
+/* Top Navigation */
+#navbar-top > section{
+    display: inline;
+    width: 100%
+}
+
+
+/* Bottom Navigation */
+#superfish-main > li {
+    background: #3e4980;
+}
+
+#superfish-main > li:hover {
+    background: #4f5ca2
+}
+
+#superfish-main > li > a{
+    color: white; 
+}
+
+/* Sidebar */
+#sidebar_second > aside > div{
+    background-color: #4a4a4a;
+    border-color: #4a4a4a;
+    overflow: auto; 
+}
+
+

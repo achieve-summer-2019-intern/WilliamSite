@@ -10,8 +10,8 @@ dependencies:
     - william
 id: william_topnavigation
 theme: william
-region: header
-weight: -8
+region: secondary_menu
+weight: -2
 provider: null
 plugin: 'superfish:top-navigation'
 settings:
@@ -23,8 +23,8 @@ settings:
   depth: '0'
   expand_all_items: false
   menu_type: horizontal
-  style: default
-  arrow: 0
+  style: none
+  arrow: 1
   shadow: 1
   speed: fast
   delay: '800'
@@ -56,7 +56,7 @@ settings:
   supersubs: 1
   minwidth: '12'
   maxwidth: '27'
-  multicolumn: 1
+  multicolumn: 0
   multicolumn_depth: '1'
   multicolumn_levels: '1'
   pathlevels: '1'
@@ -66,6 +66,6 @@ settings:
   add_linkdescription: 0
   link_depth_class: 1
   custom_list_class: ''
-  custom_item_class: ''
+  custom_item_class: navbar-li
   custom_link_class: ''
 visibility: {  }

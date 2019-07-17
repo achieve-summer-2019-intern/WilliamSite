@@ -52,7 +52,7 @@ display:
       pager:
         type: some
         options:
-          items_per_page: 2
+          items_per_page: 0
           offset: 0
       style:
         type: html_list
@@ -201,7 +201,7 @@ display:
           entity_type: node
           plugin_id: taxonomy_index_tid_depth
       display_extenders: {  }
-      css_class: 'container p-5'
+      css_class: ''
     cache_metadata:
       max-age: -1
       contexts:

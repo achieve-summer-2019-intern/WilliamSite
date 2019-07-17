@@ -10,8 +10,8 @@ _core:
   default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
 id: william_branding
 theme: william
-region: primary_menu
-weight: -8
+region: secondary_menu
+weight: -3
 provider: null
 plugin: system_branding_block
 settings:

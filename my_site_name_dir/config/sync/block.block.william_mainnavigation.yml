@@ -10,8 +10,8 @@ dependencies:
     - william
 id: william_mainnavigation
 theme: william
-region: header
-weight: -7
+region: secondary_menu
+weight: -1
 provider: null
 plugin: 'superfish:main'
 settings:

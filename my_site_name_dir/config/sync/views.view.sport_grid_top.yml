@@ -118,6 +118,11 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
+        nothing:
+          id: nothing
+          table: views
+          field: nothing
+          plugin_id: custom
       filters:
         status:
           value: '1'
@@ -203,7 +208,7 @@ display:
           entity_type: node
           plugin_id: taxonomy_index_tid_depth
       display_extenders: {  }
-      css_class: 'jumbotron m-auto'
+      css_class: m-auto
     cache_metadata:
       max-age: -1
       contexts:
