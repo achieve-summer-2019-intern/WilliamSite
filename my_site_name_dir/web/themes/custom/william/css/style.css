@@ -8,6 +8,11 @@ body{
     color: white; 
 }
 
+/* Remove hyperlink */
+a:link {
+    text-decoration: none;
+}
+
 /* #page-wrapper{
     width: 100vw;
     height: 100vh; 
@@ -45,16 +50,68 @@ body{
     padding: 0 10%; 
 }
 
-/* Top Navigation */
-#navbar-top > section{
-    display: inline;
-    width: 100%
+/* ------------------------------------------------------------------------- */
+/* ----------------------Site Branding-------------------------------------- */
+/* ------------------------------------------------------------------------- */
+
+#navbar-top > section > a > img{
+    width: 65%
+}
+
+#navbar-top > section > div.d-inline-block.align-top.site-name-slogan{
+    color: white; 
 }
 
 
-/* Bottom Navigation */
+/* ------------------------------------------------------------------------- */
+/* ----------------------Top Navigation------------------------------------- */
+/* ------------------------------------------------------------------------- */
+#navbar-top > section{
+    /* display: inline; */
+    width: 100%;
+}
+
+#superfish-top-navigation > li {
+    transition: ease-in-out 0.1s;
+}
+
+#superfish-top-navigation > li:hover {
+    border-top-style: solid;
+    border-top-color: white;
+}
+
+#superfish-top-navigation > li > a {
+    color: white; 
+}
+
+/* ------------------------------------------------------------------------- */
+/* -------------------Bottom Navigation------------------------------------- */
+/* ------------------------------------------------------------------------- */
+
+#block-william-mainnavigation > div.content{
+    width: 100%; 
+}
+
+
+#block-william-mainnavigation{
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-ends; 
+}
+
+#superfish-main{
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-ends; 
+    width: 100%; 
+    margin: 0; 
+}
+
 #superfish-main > li {
     background: #3e4980;
+    width: 20%; 
+    text-align: center; 
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
 #superfish-main > li:hover {
