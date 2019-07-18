@@ -128,10 +128,10 @@ reactions:
         uuid: 3ff2d5ac-281f-4795-ad15-58c25734b65a
       48cbc39f-e093-48f0-bec8-854ff048b081:
         id: 'views_block:sport_grid_top-block_1'
-        label: ''
+        label: 'Featured Events'
         provider: views
-        label_display: 0
-        views_label: ''
+        label_display: visible
+        views_label: 'Featured Events'
         items_per_page: none
         region: content
         weight: '-1'

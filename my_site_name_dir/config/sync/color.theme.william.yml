@@ -8,11 +8,11 @@ palette:
   button: '#007bff'
   buttonhover: '#0256b1'
   titleslogan: '#fffeff'
-  text: '#3b3b3b'
-  link: '#0071b3'
-logo: 'public://color/william-93c8c225/logo.svg'
+  text: '#fff'
+  link: '#fff'
+logo: 'public://color/william-047a1fec/logo.svg'
 stylesheets:
-  - 'public://color/william-93c8c225/colors.css'
+  - 'public://color/william-047a1fec/colors.css'
 files:
-  - 'public://color/william-93c8c225/logo.svg'
-  - 'public://color/william-93c8c225/colors.css'
+  - 'public://color/william-047a1fec/logo.svg'
+  - 'public://color/william-047a1fec/colors.css'

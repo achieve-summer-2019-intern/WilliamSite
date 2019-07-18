@@ -122,12 +122,6 @@ a:link {
     color: white; 
 }
 
-/* Sidebar */
-#sidebar_second > aside > div{
-    background-color: #4a4a4a;
-    border-color: #4a4a4a;
-    overflow: auto; 
-}
 
 
 /* ------------------------------------------------------------------------- */
@@ -136,4 +130,41 @@ a:link {
 
 #main-wrapper{
     margin: 0 12%; 
+}
+
+
+
+
+/* ------------------------------------------------------------------------- */
+/* -------------------Side Bar Content-------------------------------------- */
+/* ------------------------------------------------------------------------- */
+
+#sidebar_second > aside > div{
+    background-color: #4a4a4a;
+    border-color: #4a4a4a;
+    overflow: auto; 
+}
+
+/* #sidebar_second > aside > div > div.content > div > div > div.view-content.row > div > ul > li{
+    position: absolute; 
+} */
+
+#List-item-Right{
+    margin-bottom: 1.5em;
+    
+}
+
+#List-item-Right > a > img{
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(2px);
+    position: absolute;
+    z-index: 0; 
+}
+
+#List-item-Right > div.cat, #List-item-Right > div.title, #List-item-Right > div.date{
+    position: relative;
+    top: 50%; 
+    left: 1%;  
+    z-index: 1;
+    color: white; 
 }
