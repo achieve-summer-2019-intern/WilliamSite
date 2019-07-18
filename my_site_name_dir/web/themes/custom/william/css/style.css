@@ -36,6 +36,13 @@ a:link {
     height: 100%; 
 }
 
+#content > section > div.contextual-region.block.block-views.block-views-blocksport-grid-top-block-1 > h2{
+    font-size: 1.3em;
+    border-bottom-style: solid;
+    border-image: linear-gradient(to left,#2E2449,#25366A);
+
+}
+
 
 /* #sidebar_second{
     padding-bottom: 500px; 
