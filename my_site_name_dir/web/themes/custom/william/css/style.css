@@ -139,8 +139,23 @@ a:link {
     margin: 0 12%; 
 }
 
+#views-field{
+    background-color: #2d2d2d
+}
 
+#bottomgrid-li > div{
+    background-color: #2d2d2d;
+    width: 108%;
+    padding: 3%;
+}
+#bottomgrid-li > h2{
+    background-color: #2d2d2d;
+    width: 108%;
+}
 
+#titleid{
+    font-size: 1.5em;
+}
 
 /* ------------------------------------------------------------------------- */
 /* -------------------Side Bar Content-------------------------------------- */
