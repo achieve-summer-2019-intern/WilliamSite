@@ -20,3 +20,8 @@
     4. Better configurations of context, and views 
     5. Consistent Git updates each day 
 
+### What I'd like to accomplish or learn 
+    1. Understanding of the backend stuff that drupals handle 
+    2. Additional CS and Javascript tricks to make the site closer to that of eversport 
+    3. How I can manipulate drupal to have more control over the files 
+    4. How to configure twigs to meet my needs 
