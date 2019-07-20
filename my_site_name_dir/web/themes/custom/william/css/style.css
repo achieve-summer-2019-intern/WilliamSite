@@ -98,13 +98,15 @@ a:link {
 /* ------------------------------------------------------------------------- */
 
 
-/* .sf-menu li li{
-    background-color: white; */
-    /* color: black; 
+.sf-menu li li{
+    background-color: #055a8e;
+    /* color: black;  */
 }
-#main-standardfront-page > a{
+
+/* #main-standardfront-page > a{
     color: black; 
 } */
+
 
 
 
