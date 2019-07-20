@@ -25,3 +25,15 @@
     2. Additional CS and Javascript tricks to make the site closer to that of eversport 
     3. How I can manipulate drupal to have more control over the files 
     4. How to configure twigs to meet my needs 
+
+
+
+### Installation Guide 
+    1. Navigate to the web folder 
+
+```sh
+    $ lando drush config-import
+    $ lando start
+```
+
+    2. Afterwards click on any of the links provided to enter the website
