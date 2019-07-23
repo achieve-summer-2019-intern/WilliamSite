@@ -1,0 +1,7 @@
+services: 
+  intern_services.coffee:
+    class: Drupal\intern_service\CoffeeService
+  coffeeDrinker: 
+    class: Drupal\intern_service\CoffeeDrinker
+  hyuuman: 
+    class: Drupal\intern_service\Hyuuman 

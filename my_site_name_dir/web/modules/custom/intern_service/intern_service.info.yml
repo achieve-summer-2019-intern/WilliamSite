@@ -1,0 +1,4 @@
+name: Drupal Intern Service 
+type: module
+description: Example Service
+core: 8.x  
