@@ -21,6 +21,8 @@ module:
   datetime: 0
   datetime_range: 0
   dblog: 0
+  devel: 0
+  devel_php: 0
   dynamic_page_cache: 0
   editor: 0
   field: 0
@@ -31,6 +33,8 @@ module:
   history: 0
   honeypot: 0
   image: 0
+  intern: 0
+  intern_service: 0
   link: 0
   media: 0
   media_library: 0
