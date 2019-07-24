@@ -1,0 +1,17 @@
+<?php 
+namespace Drupal\intern\Controller;
+use Drupal\node\Entity\Node;
+function createNode() {
+   $node = Node::create(['type' => 'page', '']);
+   $node->set('title', 'TEST PAGE');
+   $body = [
+       'value:' => 'Test Page Body',
+       'format' => 'basic_html',
+   ];
+   $node->set('body', $body);
+   $node->set('uid', 1);
+   $node->setPublished();
+   $node->save();
+   drupal_set_message('Node created with ID: ', $node->id());
+}
+createNode();
