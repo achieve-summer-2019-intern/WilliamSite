@@ -1,0 +1,11 @@
+view ticket entity: 
+  title: 'View Ticket Entity'
+add ticket entity: 
+  title: 'Add Ticket Entity'
+edit ticket entity:
+  title: 'Edit Ticket Entity'
+delete ticket entity: 
+  title: 'Delete Ticket Entity'
+administer ticket entity:
+  title: 'Administer Ticket Entity'
+  restrict access: TRUE
