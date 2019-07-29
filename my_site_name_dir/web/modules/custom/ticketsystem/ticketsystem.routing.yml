@@ -1,0 +1,25 @@
+ticketsystem.content:
+  path: '/'
+  defaults:
+    _controller: '' 
+    _title: ''
+  requirements: 
+    _permission: 'access content'
+
+ticketsystem.dynamic_content:
+  path: '/ticketingsystem/{count}'
+  defaults: 
+    _controller: '\Drupal\intern\Controller\InternshipController::dynamicContent'
+    _title: 'Class of Summer 2019 Count'
+  requirements: 
+    _permission: 'access content'
+
+ticketsystem.ticket_form:
+  path: '/ticket'
+  defaults:
+    _form:
+    _title:
+  requirements:
+    _permission: 
+
+  
