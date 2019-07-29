@@ -1,25 +1,53 @@
-ticketsystem.content:
-  path: '/'
-  defaults:
-    _controller: '' 
-    _title: ''
-  requirements: 
-    _permission: 'access content'
+#This files bring everything together 
 
-ticketsystem.dynamic_content:
-  path: '/ticketingsystem/{count}'
+# actions 
+entity.ticket.canonical:
+  path: '/ticket/{ticket}'
+  defaults:
+  # Calls the view controller, defined in the annotation of the ticket entity 
+    _entity_view: 'ticket'
+    _title: 'Ticket Content'
+  requirements: 
+  # Calls the access controller of the entity, $operation 'view'
+    _entity_access: 'ticket.view'
+
+entity.ticket.collection: 
+  path: '/ticket/list'
   defaults: 
-    _controller: '\Drupal\intern\Controller\InternshipController::dynamicContent'
-    _title: 'Class of Summer 2019 Count'
-  requirements: 
-    _permission: 'access content'
-
-ticketsystem.ticket_form:
-  path: '/ticket'
-  defaults:
-    _form:
-    _title:
+  # Calls the list controller, defined in the annotation of the ticket entity. 
+    _entity_list: 'ticket'
+    _title: 'Ticket List'
   requirements:
-    _permission: 
+  # Check for permission directly 
+    _permission: 'administer contact entity'
 
-  
+ticket_add: 
+  path: '/ticket/add'
+  # Calls the form .add controller, defined in the contact entity 
+    _entity_form: ticket.add
+    _title: 'Add Ticket'
+  requirements:
+    _entity_create_access: 'ticket'
+
+entity.ticket.edit_form:
+  path: '/ticket/{ticket}/edit'
+  defaults: 
+  # Call the form.edit controller 
+    _entity_form: ticket.edit
+    _title: 'Edit Ticket'
+
+entity.ticket.delete_form:
+  path: 'ticket/{ticket}/delete'
+  defaults:
+  # Call the form.delete controller
+    _entity_form: ticket.delete
+    _title: 'Delete Ticket'
+
+
+entity.ticket.ticket_settings:
+  path: 'admin/structure/ticket_settings'
+  defaults:
+    _form: '\Drupal\ticket\Form\TicketSettingsForm'
+    _title: 'Ticket Settings'
+  requirements:
+    _permission: 'administer ticket entity'
