@@ -1,0 +1,22 @@
+# Define the local links for the module 
+
+ticket.settings_tab:
+  route_name: ticket.ticket_settings
+  title: Settings
+  base_route: ticket.ticket_settings
+
+ticket.view:
+  route_name: entity.ticket.canonical
+  base_route: entity.ticket.canonical
+  title: View
+
+ticket.page_edit:
+  route_name: entity.ticket.edit_form
+  base_route: entity.ticket.canonical
+  title: Edit 
+
+ticket.delete_confirm: 
+  route_name: entity.ticket.delete_form
+  base_route: entity.ticket.canonical 
+  title: Delete 
+  weight: 10 
