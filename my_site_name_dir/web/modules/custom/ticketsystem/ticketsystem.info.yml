@@ -1,0 +1,5 @@
+name: 'TicketSystem'
+type: module
+description: 'Just another ticketing system'
+core: 8.x
+package: 'Custom'

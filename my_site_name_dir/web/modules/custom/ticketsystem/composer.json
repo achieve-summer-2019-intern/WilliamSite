@@ -1,0 +1,13 @@
+{
+    "name": "ticketsystem",
+    "type": "drupal-module",
+    "description": "Just another ticketing system",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/ticketsystem",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/ticketsystem",
+        "source": "http://cgit.drupalcode.org/ticketsystem"
+    }
+}

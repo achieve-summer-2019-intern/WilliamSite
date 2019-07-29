@@ -23,6 +23,14 @@ intern.first_form:
   requirements:
     _permission: 'access content'
 
+intern.profile:
+  path: '/profile'
+  defaults:
+    _form: '\Drupal\intern\Form\SecondForm'
+    _title: 'Interns Second Form'
+  requirements:
+    _permission: 'access content'    
+
 # intern.profile:
 #   path: '/profile'
 #   defaults: 

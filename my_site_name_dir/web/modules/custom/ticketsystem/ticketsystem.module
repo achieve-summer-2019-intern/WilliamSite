@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains ticketsystem.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function ticketsystem_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the ticketsystem module.
+    case 'help.page.ticketsystem':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Just another ticketing system') . '</p>';
+      return $output;
+
+    default:
+  }
+}
