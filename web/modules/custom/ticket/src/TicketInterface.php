@@ -1,6 +1,6 @@
 <?php 
 
-namespace Drupal\ticketingsystem; 
+namespace Drupal\ticket; 
 
 use Drupal\Core\Entity\ContentEntityInterface; 
 use Drupal\user\EntityOwnerInterface;

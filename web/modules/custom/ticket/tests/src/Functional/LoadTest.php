@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\Tests\ticketsystem\Functional;
+namespace Drupal\Tests\ticket\Functional;
 
 use Drupal\Core\Url;
 use Drupal\Tests\BrowserTestBase;
@@ -17,7 +17,7 @@ class LoadTest extends BrowserTestBase {
    *
    * @var array
    */
-  public static $modules = ['ticketsystem'];
+  public static $modules = ['ticket'];
 
   /**
    * A user with permission to administer site configuration.
