@@ -23,6 +23,7 @@ entity.ticket.collection:
 
 ticket_add: 
   path: '/ticket/add'
+  defaults:
   # Calls the form .add controller, defined in the contact entity 
     _entity_form: ticket.add
     _title: 'Add Ticket'
