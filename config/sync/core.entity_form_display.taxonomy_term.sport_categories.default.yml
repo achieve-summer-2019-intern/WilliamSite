@@ -1,0 +1,37 @@
+uuid: fb1d8e9e-d612-488a-8667-b89a074adfb5
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.sport_categories
+  module:
+    - path
+    - text
+id: taxonomy_term.sport_categories.default
+targetEntityType: taxonomy_term
+bundle: sport_categories
+mode: default
+content:
+  description:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

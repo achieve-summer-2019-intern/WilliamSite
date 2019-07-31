@@ -10,9 +10,9 @@ palette:
   titleslogan: '#fffeff'
   text: '#fff'
   link: '#fff'
-logo: 'public://color/william-047a1fec/logo.svg'
+logo: 'public://color/william-dbc1d2d9/logo.svg'
 stylesheets:
-  - 'public://color/william-047a1fec/colors.css'
+  - 'public://color/william-dbc1d2d9/colors.css'
 files:
-  - 'public://color/william-047a1fec/logo.svg'
-  - 'public://color/william-047a1fec/colors.css'
+  - 'public://color/william-dbc1d2d9/logo.svg'
+  - 'public://color/william-dbc1d2d9/colors.css'

@@ -2,14 +2,14 @@ favicon:
   mimetype: image/vnd.microsoft.icon
   path: ''
   url: ''
-  use_default: false
+  use_default: true
 features:
   comment_user_picture: true
   comment_user_verification: true
   favicon: true
   node_user_picture: true
 logo:
-  path: 'public://logo--eversport--white_0.png'
+  path: 'public://logo--eversport--white.png'
   url: ''
   use_default: false
 _core:

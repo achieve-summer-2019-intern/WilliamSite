@@ -14,4 +14,3 @@ function createNode() {
    $node->save();
    drupal_set_message('Node created with ID: ', $node->id());
 }
-createNode();
