@@ -1,9 +1,10 @@
 # WilliamSite
 
 ## Build Status
-[![Build Status](https://travis-ci.com/achieve-summer-2019-intern/WilliamSite.svg?branch=master)](https://travis-ci.com/achieve-summer-2019-intern/WilliamSite)
+[![Build Status](https://travis-ci.com/achieve-summer-2019-intern/WilliamSite.svg?branch=master)](https://travis-ci.com/achieve-summer-2019-intern/WilliamSite)c
 
-##Theming Week Reflections 
+## Theming Week Reflections
+ 
 ### What I learned 
     1. How to add Custom CSS into the Drupal
     2. How to Create Subthemes and Configure it 
